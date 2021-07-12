@@ -129,7 +129,7 @@ input {
     font-family: inherit;
     text-align: inherit;
     margin-bottom: 1em;
-    padding: .35em;
+    padding: .6em;
     border: 1px solid var(--gray);
     transform: scale(1);
     transition: transform 250ms;
