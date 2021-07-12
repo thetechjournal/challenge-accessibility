@@ -10,7 +10,7 @@
     --black: #272727;
     --gray: #404040;
     --gray-dark: #2F2C2C;
-    --gray-lighter: rgb(190, 184, 184);
+    --gray-lighter: rgb(250, 245, 245);
 }
 
 body {
@@ -19,6 +19,7 @@ body {
     font-size: 1rem;
     color: var(--gray);
     text-align: center;
+    background-color: var(--gray-lighter);
 }
 
 
@@ -129,7 +130,7 @@ input {
     text-align: inherit;
     margin-bottom: 1em;
     padding: .35em;
-    border: 1px solid var(--gray);;
+    border: 1px solid var(--gray);
     transform: scale(1);
     transition: transform 250ms;
 }
@@ -159,6 +160,7 @@ input:focus {
 .btn-primary:hover,
 .btn-primary:focus {
     transform: scale(1.1);
+
 }
 
 /* =================
